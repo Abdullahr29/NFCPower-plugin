@@ -1,2 +1,2 @@
 # NFCPower-plugin
-Ionic plugin used to access native NFC functionality for energy harvesting purposes
+Ionic plugin used to access native NFC functionality (currently only Android) for energy harvesting to power circuits via NFC tags
