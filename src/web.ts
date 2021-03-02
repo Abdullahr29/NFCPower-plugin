@@ -13,6 +13,13 @@ export class NFCPowerWeb extends WebPlugin implements NFCPowerPlugin {
     console.log('ECHO', options);
     return options;
   }
+
+  async noNFC( message: string ): Promise<{ result: string }> {
+    console.log('message: ', message);
+    return{
+      result: "There is no NFC functionality for web :("
+    };
+  }
 }
 
 const NFCPower = new NFCPowerWeb();
